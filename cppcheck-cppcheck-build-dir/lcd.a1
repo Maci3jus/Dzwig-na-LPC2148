@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18001404609533442287">
+  <FileInfo check="ctu">
+<function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="64" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="66" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="68" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="72" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="76" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="83" col="10" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="90" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="94" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="111" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="115" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="125" col="12" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="lcd.c:14:6" my-argnr="1" my-argname="string" file="lcd.c" line="121" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="lcd.c:14:6" my-argnr="1" my-argname="string" file="lcd.c" line="121" col="8" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-12.1" severity="style" msg="The precedence of operators within expressions should be made explicit\011" verbose="The precedence of operators within expressions should be made explicit\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/lcd.a1.dump">
+            <location file="lcd.c" line="48" column="12"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;TRUE&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;TRUE&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/lcd.a1.dump">
+            <location file="lcd.c" line="100" column="15"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="writeLCD" lineNumber="17"/>
+    <functiondecl functionName="delay37us" lineNumber="43"/>
+    <functiondecl functionName="initLCD" lineNumber="53"/>
+    <functiondecl functionName="secondRowLCD" lineNumber="81"/>
+    <functiondecl functionName="clearLCD" lineNumber="87"/>
+    <functiondecl functionName="lcdBacklight" lineNumber="98"/>
+    <functiondecl functionName="printStringLCD" lineNumber="108"/>
+    <functioncall functionName="delay37us"/>
+    <functioncall functionName="osSleep"/>
+    <functioncall functionName="tU32"/>
+    <functioncall functionName="writeLCD"/>
+  </FileInfo>
+</analyzerinfo>

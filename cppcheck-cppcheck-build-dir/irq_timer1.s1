@@ -1,0 +1,2 @@
+send_SPI
+ledMatrix global:[czasTimer,pattern] call:[send_SPI]

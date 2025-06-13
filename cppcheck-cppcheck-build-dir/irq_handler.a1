@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3862714362502447713">
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="28" column="6"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="30" column="12"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="31" column="18"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="34" column="14"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="36" column="18"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="37" column="18"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand\011" verbose="The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="30" column="12"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand\011" verbose="The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="36" column="18"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="All if \342\200\246 else if constructs shall be terminated with an else statement\011" verbose="All if \342\200\246 else if constructs shall be terminated with an else statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="39" column="5"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;T1IR&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;T1IR&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="28" column="22"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;T1IR&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;T1IR&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.c" line="34" column="30"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="The # and ## preprocessor operators should not be used\011" verbose="The # and ## preprocessor operators should not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\general.h" line="16" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\common_def.h" line="2" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\general.h" line="3" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\general.h" line="15" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\general.h" line="16" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_handler.h" line="17" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_handler.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\timer.h" line="2" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="IRQ_Test" lineNumber="26"/>
+    <functioncall functionName="T1IR"/>
+  </FileInfo>
+</analyzerinfo>

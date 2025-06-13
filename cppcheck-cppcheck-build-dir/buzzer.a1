@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7286092776172815952">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="disablebuzz" lineNumber="26"/>
+    <functiondecl functionName="buzzing" lineNumber="37"/>
+    <functioncall functionName="osSleep"/>
+  </FileInfo>
+</analyzerinfo>

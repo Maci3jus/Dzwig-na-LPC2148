@@ -1,0 +1,10 @@
+buzzer.a1::buzzer.c
+lcd.a1::lcd.c
+main.a1::main.c
+testLcd.a1::testLcd.c
+testLedMatrix.a1::testLedMatrix.c
+testMotor.a1::testMotor.c
+irq_handler.a1::C:/Users/wssw/Downloads/2148/irq/irq_handler.c
+irq_timer1.a1::C:/Users/wssw/Downloads/2148/irq/irq_timer1.c
+consol.a1::C:/Users/wssw/Downloads/2148/startup/consol.c
+framework.a1::C:/Users/wssw/Downloads/2148/startup/framework.c

@@ -1,0 +1,5 @@
+{"summary": "MisraMacro", "data": [{"name": "BUZZER_H_", "used": true, "file": "buzzer.h", "line": 9, "column": 0}]}
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "disablebuzz", "file": "buzzer.c", "line": 26, "column": 6, "decl": false}, {"name": "buzzing", "file": "buzzer.c", "line": 37, "column": 6, "decl": false}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": []}
+{"summary": "MisraUsage", "data": [{"name": "disablebuzz", "file": "buzzer.c"}, {"name": "buzzing", "file": "buzzer.c"}]}

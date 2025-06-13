@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5633119378264233804">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="68" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="88" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="108" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="128" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="148" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="170" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="68" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="88" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="108" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="128" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="148" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="170" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="68" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="88" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="108" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="128" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="148" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="170" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="68" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="88" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="108" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="128" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="148" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="170" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="68" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="88" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="108" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="128" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="148" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="170" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="68" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="88" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="108" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="128" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="148" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/wssw/Downloads/2148/startup/consol.h:114:6" call-funcname="consolSendNumber" call-argnr="3" file="C:/Users/wssw/Downloads/2148/startup/framework.c" line="170" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+        <error id="misra-c2012-2.2" severity="style" msg="A project shall not contain dead code\011" verbose="A project shall not contain dead code\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="280" column="76"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="202" column="51"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="214" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="215" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="217" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="218" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="219" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="222" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="223" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="226" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="229" column="2"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="232" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="233" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="234" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="236" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="237" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="238" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="239" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="240" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="241" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="242" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="243" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="244" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="245" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="246" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="247" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="248" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="249" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="250" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="251" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="278" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="279" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="280" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="281" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="282" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="283" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="286" column="10"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="67" column="20"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="87" column="20"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="107" column="20"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="127" column="20"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="147" column="20"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="169" column="20"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Function types shall be in prototype form with named parameters\011" verbose="Function types shall be in prototype form with named parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Function types shall be in prototype form with named parameters\011" verbose="Function types shall be in prototype form with named parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="102" column="23"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="202" column="49"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="190" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="191" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="192" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="193" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="194" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="197" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="202" column="16"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="214" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="215" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="217" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="218" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="219" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="222" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="223" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="226" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="229" column="2"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="232" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="233" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="234" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="236" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="237" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="238" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="239" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="240" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="241" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="242" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="243" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="244" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="245" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="246" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="247" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="248" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="249" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="250" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="251" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="278" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="279" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="280" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="281" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="282" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="283" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="286" column="10"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" verbose="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="67" column="19"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" verbose="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="87" column="19"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" verbose="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="107" column="19"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" verbose="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="127" column="19"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" verbose="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="147" column="19"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" verbose="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="169" column="19"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" verbose="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="286" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="69" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="89" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="109" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="129" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="149" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="171" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="286" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="308" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="315" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="373" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="391" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="399" column="2"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="417" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="431" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="438" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="64" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="84" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="104" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="124" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="144" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="166" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="259" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="#include directives should only be preceded by preprocessor directives or comments\011" verbose="#include directives should only be preceded by preprocessor directives or comments\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="300" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="#include directives should only be preceded by preprocessor directives or comments\011" verbose="#include directives should only be preceded by preprocessor directives or comments\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="301" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="#include directives should only be preceded by preprocessor directives or comments\011" verbose="#include directives should only be preceded by preprocessor directives or comments\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="302" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="#include directives should only be preceded by preprocessor directives or comments\011" verbose="#include directives should only be preceded by preprocessor directives or comments\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\framework.c" line="303" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/framework.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\lpc2xxx.h" line="8" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="exceptionHandlerUndef" lineNumber="62"/>
+    <functiondecl functionName="exceptionHandlerSwi" lineNumber="82"/>
+    <functiondecl functionName="exceptionHandlerPabort" lineNumber="102"/>
+    <functiondecl functionName="exceptionHandlerDabort" lineNumber="122"/>
+    <functiondecl functionName="exceptionHandlerFiq" lineNumber="142"/>
+    <functiondecl functionName="exceptionHandlerIrq" lineNumber="164"/>
+    <functiondecl functionName="exceptionHandlerInit" lineNumber="188"/>
+    <functiondecl functionName="lowLevelInit" lineNumber="212"/>
+    <functiondecl functionName="eaInit" lineNumber="269"/>
+    <functiondecl functionName="exceptionHandlerUndef" lineNumber="62"/>
+    <functiondecl functionName="exceptionHandlerSwi" lineNumber="82"/>
+    <functiondecl functionName="exceptionHandlerPabort" lineNumber="102"/>
+    <functiondecl functionName="exceptionHandlerDabort" lineNumber="122"/>
+    <functiondecl functionName="exceptionHandlerFiq" lineNumber="142"/>
+    <functiondecl functionName="exceptionHandlerIrq" lineNumber="164"/>
+    <functiondecl functionName="exceptionHandlerInit" lineNumber="188"/>
+    <functiondecl functionName="lowLevelInit" lineNumber="212"/>
+    <functiondecl functionName="eaInit" lineNumber="269"/>
+    <functiondecl functionName="exceptionHandlerUndef" lineNumber="62"/>
+    <functiondecl functionName="exceptionHandlerSwi" lineNumber="82"/>
+    <functiondecl functionName="exceptionHandlerPabort" lineNumber="102"/>
+    <functiondecl functionName="exceptionHandlerDabort" lineNumber="122"/>
+    <functiondecl functionName="exceptionHandlerFiq" lineNumber="142"/>
+    <functiondecl functionName="exceptionHandlerIrq" lineNumber="164"/>
+    <functiondecl functionName="exceptionHandlerInit" lineNumber="188"/>
+    <functiondecl functionName="lowLevelInit" lineNumber="212"/>
+    <functiondecl functionName="eaInit" lineNumber="269"/>
+    <functiondecl functionName="exceptionHandlerUndef" lineNumber="62"/>
+    <functiondecl functionName="exceptionHandlerSwi" lineNumber="82"/>
+    <functiondecl functionName="exceptionHandlerPabort" lineNumber="102"/>
+    <functiondecl functionName="exceptionHandlerDabort" lineNumber="122"/>
+    <functiondecl functionName="exceptionHandlerFiq" lineNumber="142"/>
+    <functiondecl functionName="exceptionHandlerIrq" lineNumber="164"/>
+    <functiondecl functionName="exceptionHandlerInit" lineNumber="188"/>
+    <functiondecl functionName="lowLevelInit" lineNumber="212"/>
+    <functiondecl functionName="eaInit" lineNumber="269"/>
+    <functiondecl functionName="exceptionHandlerUndef" lineNumber="62"/>
+    <functiondecl functionName="exceptionHandlerSwi" lineNumber="82"/>
+    <functiondecl functionName="exceptionHandlerPabort" lineNumber="102"/>
+    <functiondecl functionName="exceptionHandlerDabort" lineNumber="122"/>
+    <functiondecl functionName="exceptionHandlerFiq" lineNumber="142"/>
+    <functiondecl functionName="exceptionHandlerIrq" lineNumber="164"/>
+    <functiondecl functionName="exceptionHandlerInit" lineNumber="188"/>
+    <functiondecl functionName="lowLevelInit" lineNumber="212"/>
+    <functiondecl functionName="eaInit" lineNumber="269"/>
+    <functiondecl functionName="exceptionHandlerUndef" lineNumber="62"/>
+    <functiondecl functionName="exceptionHandlerSwi" lineNumber="82"/>
+    <functiondecl functionName="exceptionHandlerPabort" lineNumber="102"/>
+    <functiondecl functionName="exceptionHandlerDabort" lineNumber="122"/>
+    <functiondecl functionName="exceptionHandlerFiq" lineNumber="142"/>
+    <functiondecl functionName="exceptionHandlerIrq" lineNumber="164"/>
+    <functiondecl functionName="exceptionHandlerInit" lineNumber="188"/>
+    <functiondecl functionName="lowLevelInit" lineNumber="212"/>
+    <functiondecl functionName="eaInit" lineNumber="269"/>
+    <functioncall functionName="asm"/>
+    <functioncall functionName="consolInit"/>
+    <functioncall functionName="consolSendNumber"/>
+    <functioncall functionName="consolSendString"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="exceptionHandlerDabort"/>
+    <functioncall functionName="exceptionHandlerFiq"/>
+    <functioncall functionName="exceptionHandlerIrq"/>
+    <functioncall functionName="exceptionHandlerPabort"/>
+    <functioncall functionName="exceptionHandlerSwi"/>
+    <functioncall functionName="exceptionHandlerUndef"/>
+  </FileInfo>
+</analyzerinfo>

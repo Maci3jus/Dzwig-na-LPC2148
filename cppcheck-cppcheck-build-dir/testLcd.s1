@@ -1,0 +1,12 @@
+writeLCD call:[asm] noreturn:[asm]
+delay37us call:[asm] noreturn:[asm]
+initLCD call:[delay37us,writeLCD] noreturn:[delay37us]
+secondRowLCD call:[delay37us,writeLCD] noreturn:[delay37us]
+clearLCD call:[osSleep,writeLCD] noreturn:[osSleep]
+lcdBacklight
+printStringLCD call:[delay37us,writeLCD] noreturn:[delay37us]
+ruch global:[wybor]
+startMenu global:[wybor] call:[buzzing,disablebuzz,disablemotor,enablemotor,enablemotorleft,enablemotorright,initializemotor,matrixStrzalka,motorfaster,motorslower,osSleep,ruch,rysujAwaria,rysujMenu,rysujpredkosc] noreturn:[disablebuzz,motorslower,osSleep,ruch,rysujMenu]
+rysujMenu call:[clearLCD,initLCD,lcdBacklight,printStringLCD,secondRowLCD,sizeof,snprintf] noreturn:[printStringLCD]
+rysujAwaria call:[clearLCD,initLCD,lcdBacklight,printStringLCD,secondRowLCD] noreturn:[printStringLCD]
+rysujpredkosc call:[clearLCD,initLCD,lcdBacklight,osSleep,printStringLCD,secondRowLCD] noreturn:[osSleep]

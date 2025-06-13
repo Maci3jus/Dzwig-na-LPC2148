@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7153848925466997261">
+        <error id="misra-c2012-8.4" severity="style" msg="A compatible declaration shall be visible when an object or function with external linkage is defined\011" verbose="A compatible declaration shall be visible when an object or function with external linkage is defined\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_timer1.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_timer1.c" line="11" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_timer1.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_timer1.c" line="21" column="47"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_timer1.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_timer1.c" line="26" column="16"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_timer1.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_timer1.c" line="39" column="21"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;SPI_SPSR&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;SPI_SPSR&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_timer1.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\irq\irq_timer1.c" line="21" column="11"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_timer1.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\pre_emptive_os\api\general.h" line="58" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/irq_timer1.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\pre_emptive_os\api\general.h" line="65" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="send_SPI" lineNumber="13"/>
+    <functiondecl functionName="ledMatrix" lineNumber="33"/>
+    <functioncall functionName="send_SPI"/>
+  </FileInfo>
+</analyzerinfo>

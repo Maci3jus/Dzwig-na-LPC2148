@@ -1,0 +1,13 @@
+printNum call:[outputFnk,while] noreturn:[outputFnk,while]
+simplePrint call:[outputFnk,printNum,va_arg,va_end] noreturn:[outputFnk,va_end]
+consolInit
+consolSendChar
+consolSendCh call:[consolSendChar] noreturn:[consolSendChar]
+consolSendString call:[consolSendCh] noreturn:[consolSendCh]
+consolSendNumber call:[consolSendString,sizeof] noreturn:[consolSendString]
+simplePrintf call:[simplePrint,va_end,va_start] noreturn:[va_end]
+consolGetCh call:[return] noreturn:[return]
+consolGetChar
+consolGetString call:[consolGetCh,consolSendCh,consolSendString] noreturn:[consolSendCh]
+consolGetIntNum call:[atoi,consolGetString,strlen]
+consolScanf call:[consolGetCh,consolGetIntNum,consolGetString,va_arg,va_end,va_start] noreturn:[va_end]

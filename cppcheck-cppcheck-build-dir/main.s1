@@ -1,0 +1,4 @@
+main global:[initStack] call:[osCreateProcess,osInit,osStart,osStartProcess]
+proc1 global:[pid2,proc2Stack] call:[osCreateProcess,osSleep,osStartProcess] noreturn:[osSleep]
+proc2 call:[startMenu,startTimer1] noreturn:[startMenu]
+initProc global:[pid1,proc1Stack] call:[eaInit,osCreateProcess,osDeleteProcess,osStartProcess] noreturn:[osDeleteProcess]

@@ -1,0 +1,7 @@
+writeLCD call:[asm] noreturn:[asm]
+delay37us call:[asm] noreturn:[asm]
+initLCD call:[delay37us,writeLCD] noreturn:[delay37us]
+secondRowLCD call:[delay37us,writeLCD] noreturn:[delay37us]
+clearLCD call:[osSleep,writeLCD] noreturn:[osSleep]
+lcdBacklight
+printStringLCD call:[delay37us,writeLCD] noreturn:[delay37us]

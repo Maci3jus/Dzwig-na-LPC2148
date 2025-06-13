@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15756791105693751522">
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;wybor==&apos;s&apos;&apos; is always true" verbose="Condition &apos;wybor==&apos;s&apos;&apos; is always true" cwe="571" file0="testLcd.c">
+            <location file="testLcd.c" line="142" column="12" info="Condition &apos;wybor==&apos;s&apos;&apos; is always true"/>
+            <location file="testLcd.c" line="89" column="14" info="Assuming that condition &apos;wybor!=&apos;s&apos;&apos; is not redundant"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="59" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="61" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="63" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="67" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="71" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="78" col="10" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="85" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="89" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="104" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="108" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="lcd.c:17:1" call-funcname="writeLCD" call-argnr="1" file="lcd.c" line="118" col="12" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="testLcd.h:19:6" call-funcname="rysujMenu" call-argnr="1" file="testLcd.c" line="85" col="10" call-argexpr="speed" call-argvaluetype="0" call-argvalue="0">
+  <path file="testLcd.c" line="82" col="12" info="Assignment &apos;speed=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="lcd.c:14:6" call-funcname="printStringLCD" call-argnr="1" file="testLcd.c" line="167" col="16" call-argexpr="wiadomosc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="lcd.c:14:6" call-funcname="printStringLCD" call-argnr="1" file="testLcd.c" line="169" col="16" call-argexpr="wiadomosc2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="lcd.c:14:6" call-funcname="printStringLCD" call-argnr="1" file="testLcd.c" line="181" col="16" call-argexpr="wiadomosc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="lcd.c:14:6" call-funcname="printStringLCD" call-argnr="1" file="testLcd.c" line="183" col="16" call-argexpr="wiadomosc2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="lcd.c:14:6" call-funcname="printStringLCD" call-argnr="1" file="testLcd.c" line="193" col="17" call-argexpr="wiadomosc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="lcd.c:14:6" call-funcname="printStringLCD" call-argnr="1" file="testLcd.c" line="195" col="17" call-argexpr="wiadomosc2" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="lcd.c:14:6" my-argnr="1" my-argname="string" file="lcd.c" line="114" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="lcd.c:14:6" my-argnr="1" my-argname="string" file="lcd.c" line="114" col="8" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.2" severity="style" msg="Function types shall be in prototype form with named parameters\011" verbose="Function types shall be in prototype form with named parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.h" line="18" column="15"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Function types shall be in prototype form with named parameters\011" verbose="Function types shall be in prototype form with named parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.h" line="20" column="17"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Function types shall be in prototype form with named parameters\011" verbose="Function types shall be in prototype form with named parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.h" line="21" column="19"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="A compatible declaration shall be visible when an object or function with external linkage is defined\011" verbose="A compatible declaration shall be visible when an object or function with external linkage is defined\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="39" column="5"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="A compatible declaration shall be visible when an object or function with external linkage is defined\011" verbose="A compatible declaration shall be visible when an object or function with external linkage is defined\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="41" column="5"/>
+        </error>
+        <error id="misra-c2012-9.2" severity="style" msg="The initializer for an aggregate or union shall be enclosed in braces\011" verbose="The initializer for an aggregate or union shall be enclosed in braces\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="189" column="7"/>
+        </error>
+        <error id="misra-c2012-9.2" severity="style" msg="The initializer for an aggregate or union shall be enclosed in braces\011" verbose="The initializer for an aggregate or union shall be enclosed in braces\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="176" column="6"/>
+        </error>
+        <error id="misra-c2012-9.2" severity="style" msg="The initializer for an aggregate or union shall be enclosed in braces\011" verbose="The initializer for an aggregate or union shall be enclosed in braces\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="177" column="6"/>
+        </error>
+        <error id="misra-c2012-9.2" severity="style" msg="The initializer for an aggregate or union shall be enclosed in braces\011" verbose="The initializer for an aggregate or union shall be enclosed in braces\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="161" column="6"/>
+        </error>
+        <error id="misra-c2012-9.2" severity="style" msg="The initializer for an aggregate or union shall be enclosed in braces\011" verbose="The initializer for an aggregate or union shall be enclosed in braces\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="188" column="6"/>
+        </error>
+        <error id="misra-c2012-9.3" severity="style" msg="Arrays shall not be partially initialized\011" verbose="Arrays shall not be partially initialized\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="189" column="7"/>
+        </error>
+        <error id="misra-c2012-9.3" severity="style" msg="Arrays shall not be partially initialized\011" verbose="Arrays shall not be partially initialized\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="176" column="6"/>
+        </error>
+        <error id="misra-c2012-9.3" severity="style" msg="Arrays shall not be partially initialized\011" verbose="Arrays shall not be partially initialized\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="177" column="6"/>
+        </error>
+        <error id="misra-c2012-9.3" severity="style" msg="Arrays shall not be partially initialized\011" verbose="Arrays shall not be partially initialized\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="161" column="6"/>
+        </error>
+        <error id="misra-c2012-9.3" severity="style" msg="Arrays shall not be partially initialized\011" verbose="Arrays shall not be partially initialized\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="188" column="6"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="50" column="51"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="The precedence of operators within expressions should be made explicit\011" verbose="The precedence of operators within expressions should be made explicit\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="lcd.c" line="44" column="12"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="The precedence of operators within expressions should be made explicit\011" verbose="The precedence of operators within expressions should be made explicit\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="50" column="27"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;TRUE&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;TRUE&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="lcd.c" line="95" column="15"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="46" column="9"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="50" column="9"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="55" column="9"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="60" column="9"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="65" column="9"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="70" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="The value returned by a function having non-void return type shall be used\011" verbose="The value returned by a function having non-void return type shall be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="163" column="10"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="The Standard Library input/output functions shall not be used\011" verbose="The Standard Library input/output functions shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLcd.a1.dump">
+            <location file="testLcd.c" line="17" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ruch" lineNumber="43"/>
+    <functiondecl functionName="startMenu" lineNumber="78"/>
+    <functiondecl functionName="rysujMenu" lineNumber="158"/>
+    <functiondecl functionName="rysujAwaria" lineNumber="174"/>
+    <functiondecl functionName="rysujpredkosc" lineNumber="187"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="buzzing"/>
+    <functioncall functionName="clearLCD"/>
+    <functioncall functionName="delay37us"/>
+    <functioncall functionName="disablebuzz"/>
+    <functioncall functionName="disablemotor"/>
+    <functioncall functionName="enablemotor"/>
+    <functioncall functionName="enablemotorleft"/>
+    <functioncall functionName="enablemotorright"/>
+    <functioncall functionName="initLCD"/>
+    <functioncall functionName="initializemotor"/>
+    <functioncall functionName="lcdBacklight"/>
+    <functioncall functionName="matrixStrzalka"/>
+    <functioncall functionName="motorfaster"/>
+    <functioncall functionName="motorslower"/>
+    <functioncall functionName="osSleep"/>
+    <functioncall functionName="printStringLCD"/>
+    <functioncall functionName="ruch"/>
+    <functioncall functionName="rysujAwaria"/>
+    <functioncall functionName="rysujMenu"/>
+    <functioncall functionName="rysujpredkosc"/>
+    <functioncall functionName="secondRowLCD"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="tU32"/>
+    <functioncall functionName="writeLCD"/>
+  </FileInfo>
+</analyzerinfo>

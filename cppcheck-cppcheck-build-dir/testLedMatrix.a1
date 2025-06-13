@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9649058837559189766">
+        <error id="misra-c2012-2.2" severity="style" msg="A project shall not contain dead code\011" verbose="A project shall not contain dead code\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLedMatrix.a1.dump">
+            <location file="testLedMatrix.c" line="63" column="27"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Function types shall be in prototype form with named parameters\011" verbose="Function types shall be in prototype form with named parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLedMatrix.a1.dump">
+            <location file="testLedMatrix.h" line="12" column="17"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="A compatible declaration shall be visible when an object or function with external linkage is defined\011" verbose="A compatible declaration shall be visible when an object or function with external linkage is defined\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLedMatrix.a1.dump">
+            <location file="testLedMatrix.c" line="15" column="11"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="A compatible declaration shall be visible when an object or function with external linkage is defined\011" verbose="A compatible declaration shall be visible when an object or function with external linkage is defined\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLedMatrix.a1.dump">
+            <location file="testLedMatrix.c" line="23" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="All if \342\200\246 else if constructs shall be terminated with an else statement\011" verbose="All if \342\200\246 else if constructs shall be terminated with an else statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/testLedMatrix.a1.dump">
+            <location file="testLedMatrix.c" line="61" column="3"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="startTimer1" lineNumber="26"/>
+    <functiondecl functionName="matrixStrzalka" lineNumber="43"/>
+    <functioncall functionName="ledMatrix"/>
+    <functioncall functionName="tU32"/>
+  </FileInfo>
+</analyzerinfo>

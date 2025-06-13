@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16703687255282165078">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 30 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;wI&apos; can be reduced." verbose="The scope of the variable &apos;wI&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/wssw/Downloads/2148/startup/consol.c">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="464" column="9"/>
+            <symbol>wI</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;pInt&apos; can be reduced." verbose="The scope of the variable &apos;pInt&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/wssw/Downloads/2148/startup/consol.c">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="531" column="11"/>
+            <symbol>pInt</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;hexChars&apos; can be declared as const array" verbose="Variable &apos;hexChars&apos; can be declared as const array" cwe="398" file0="C:/Users/wssw/Downloads/2148/startup/consol.c">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="63" column="8" info="Variable &apos;hexChars&apos; can be declared as const array"/>
+            <symbol>hexChars</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;hexChars&apos; can be declared as const array" verbose="Variable &apos;hexChars&apos; can be declared as const array" cwe="398" file0="C:/Users/wssw/Downloads/2148/startup/consol.c">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="291" column="18" info="Variable &apos;hexChars&apos; can be declared as const array"/>
+            <symbol>hexChars</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;lflag&apos; is assigned a value that is never used." verbose="Variable &apos;lflag&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/wssw/Downloads/2148/startup/consol.c">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="157" column="13"/>
+            <symbol>lflag</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/wssw/Downloads/2148/startup/consol.c:57:1" my-argnr="1" my-argname="outputFnk" file="C:/Users/wssw/Downloads/2148/startup/consol.c" line="72" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/wssw/Downloads/2148/startup/consol.h:95:6" my-argnr="1" my-argname="pString" file="C:/Users/wssw/Downloads/2148/startup/consol.c" line="264" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/wssw/Downloads/2148/startup/consol.c:57:1" my-argnr="1" my-argname="outputFnk" file="C:/Users/wssw/Downloads/2148/startup/consol.c" line="72" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/wssw/Downloads/2148/startup/consol.h:95:6" my-argnr="1" my-argname="pString" file="C:/Users/wssw/Downloads/2148/startup/consol.c" line="264" col="10" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="193" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="200" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="201" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="202" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="203" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="206" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="209" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="212" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="229" column="11"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="231" column="3"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="380" column="11"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="382" column="10"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="401" column="7"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" verbose="A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="403" column="14"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="63" column="21"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="291" column="33"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" verbose="A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="431" column="26"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="125" column="19"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="380" column="27"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="500" column="29"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="502" column="29"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Operands shall not be of an inappropriate essential type\011" verbose="Operands shall not be of an inappropriate essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="506" column="27"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="125" column="19"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="193" column="36"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="201" column="45"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="304" column="21"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="316" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="480" column="32"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="499" column="12"/>
+        </error>
+        <error id="misra-c2012-10.8" severity="style" msg="The value of a composite expression shall not be cast to a different essential type category or a wider essential type\011" verbose="The value of a composite expression shall not be cast to a different essential type category or a wider essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="201" column="30"/>
+        </error>
+        <error id="misra-c2012-10.8" severity="style" msg="The value of a composite expression shall not be cast to a different essential type category or a wider essential type\011" verbose="The value of a composite expression shall not be cast to a different essential type category or a wider essential type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="202" column="30"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="193" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="200" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="201" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="202" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="203" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="206" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="209" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="212" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="229" column="11"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="231" column="3"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="380" column="11"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="382" column="10"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="401" column="7"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="403" column="14"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="A conversion should not be performed between a pointer to object and an integer type\011" verbose="A conversion should not be performed between a pointer to object and an integer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="429" column="11"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" verbose="A conversion shall not remove any const, volatile or _Atomic qualification from the type pointed to by a pointer\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="431" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="The precedence of operators within expressions should be made explicit\011" verbose="The precedence of operators within expressions should be made explicit\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="474" column="24"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="The precedence of operators within expressions should be made explicit\011" verbose="The precedence of operators within expressions should be made explicit\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="481" column="33"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="The precedence of operators within expressions should be made explicit\011" verbose="The precedence of operators within expressions should be made explicit\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="491" column="36"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="The precedence of operators within expressions should be made explicit\011" verbose="The precedence of operators within expressions should be made explicit\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="509" column="36"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="68" column="8"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="104" column="11"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="114" column="12"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="130" column="13"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="306" column="11"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="310" column="11"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="319" column="15"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="324" column="15"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="331" column="15"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="333" column="16"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="335" column="16"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="437" column="18"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" verbose="A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="535" column="8"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="The result of an assignment operator should not be used\011" verbose="The result of an assignment operator should not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="104" column="16"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="The result of an assignment operator should not be used\011" verbose="The result of an assignment operator should not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="114" column="16"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="The result of an assignment operator should not be used\011" verbose="The result of an assignment operator should not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="130" column="18"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="The result of an assignment operator should not be used\011" verbose="The result of an assignment operator should not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="425" column="17"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="The result of an assignment operator should not be used\011" verbose="The result of an assignment operator should not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="535" column="20"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" verbose="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="69" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" verbose="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="167" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" verbose="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="264" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" verbose="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="314" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" verbose="The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="328" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="The goto statement should not be used\011" verbose="The goto statement should not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="121" column="7"/>
+        </error>
+        <error id="misra-c2012-15.2" severity="style" msg="The goto statement shall jump to a label declared later in the same function\011" verbose="The goto statement shall jump to a label declared later in the same function\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="121" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="A function should have a single point of exit at the end\011" verbose="A function should have a single point of exit at the end\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="107" column="10"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="A function should have a single point of exit at the end\011" verbose="A function should have a single point of exit at the end\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="117" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="A function should have a single point of exit at the end\011" verbose="A function should have a single point of exit at the end\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="404" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="106" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="130" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="167" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="229" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="246" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="264" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="298" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="300" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="322" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="330" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="332" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="334" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="380" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="499" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="501" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="537" column="5"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="An unconditional break statement shall terminate every switch-clause\011" verbose="An unconditional break statement shall terminate every switch-clause\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="123" column="5"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="An unconditional break statement shall terminate every switch-clause\011" verbose="An unconditional break statement shall terminate every switch-clause\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="160" column="5"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="An unconditional break statement shall terminate every switch-clause\011" verbose="An unconditional break statement shall terminate every switch-clause\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="170" column="5"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Every switch statement shall have a default label\011" verbose="Every switch statement shall have a default label\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="538" column="5"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="95" column="13"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="124" column="17"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="129" column="17"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="135" column="26"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="145" column="18"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="150" column="18"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="161" column="18"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="172" column="9"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="357" column="2"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="359" column="10"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="361" column="8"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="529" column="3"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="534" column="11"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="542" column="22"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="547" column="22"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="552" column="23"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="The standard header file &lt;stdarg.h&gt; shall not be used\011" verbose="The standard header file &lt;stdarg.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="557" column="9"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="A function parameter should not be modified\011" verbose="A function parameter should not be modified\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="69" column="18"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="A function parameter should not be modified\011" verbose="A function parameter should not be modified\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="104" column="22"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="A function parameter should not be modified\011" verbose="A function parameter should not be modified\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="114" column="22"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="A function parameter should not be modified\011" verbose="A function parameter should not be modified\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="265" column="26"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="A function parameter should not be modified\011" verbose="A function parameter should not be modified\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="432" column="16"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="A function parameter should not be modified\011" verbose="A function parameter should not be modified\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="437" column="15"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="A function parameter should not be modified\011" verbose="A function parameter should not be modified\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="535" column="27"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="The +, -, += and -= operators should not be applied to an expression of pointer type\011" verbose="The +, -, += and -= operators should not be applied to an expression of pointer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="305" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="The +, -, += and -= operators should not be applied to an expression of pointer type\011" verbose="The +, -, += and -= operators should not be applied to an expression of pointer type\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="477" column="13"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" verbose="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="30" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" verbose="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="31" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" verbose="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="32" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" verbose="Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="33" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="30" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="31" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="32" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="33" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\lpc2xxx.h" line="8" column="0"/>
+        </error>
+        <error id="misra-c2012-21.7" severity="style" msg="The Standard Library functions atof, atoi, atol and atoll of &lt;stdlib.h&gt; shall not be used\011" verbose="The Standard Library functions atof, atoi, atol and atoll of &lt;stdlib.h&gt; shall not be used\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/consol.a1.dump">
+            <location file="C:\Users\wssw\Downloads\2148\startup\consol.c" line="490" column="19"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="printNum" lineNumber="57"/>
+    <functiondecl functionName="simplePrint" lineNumber="93"/>
+    <functiondecl functionName="consolInit" lineNumber="189"/>
+    <functiondecl functionName="consolSendChar" lineNumber="226"/>
+    <functiondecl functionName="consolSendCh" lineNumber="244"/>
+    <functiondecl functionName="consolSendString" lineNumber="262"/>
+    <functiondecl functionName="consolSendNumber" lineNumber="285"/>
+    <functiondecl functionName="simplePrintf" lineNumber="354"/>
+    <functiondecl functionName="consolGetCh" lineNumber="378"/>
+    <functiondecl functionName="consolGetChar" lineNumber="399"/>
+    <functiondecl functionName="consolGetString" lineNumber="419"/>
+    <functiondecl functionName="consolGetIntNum" lineNumber="456"/>
+    <functiondecl functionName="consolScanf" lineNumber="527"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="consolGetCh"/>
+    <functioncall functionName="consolGetIntNum"/>
+    <functioncall functionName="consolGetString"/>
+    <functioncall functionName="consolSendCh"/>
+    <functioncall functionName="consolSendChar"/>
+    <functioncall functionName="consolSendString"/>
+    <functioncall functionName="outputFnk"/>
+    <functioncall functionName="printNum"/>
+    <functioncall functionName="reswitch"/>
+    <functioncall functionName="simplePrint"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="va_arg"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+  </FileInfo>
+</analyzerinfo>

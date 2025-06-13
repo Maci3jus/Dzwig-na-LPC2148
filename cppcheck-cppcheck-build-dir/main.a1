@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13579913072862872239">
+  <FileInfo check="ctu">
+<function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="2" file="main.c" line="41" col="18" call-argexpr="initStack" call-argvaluetype="7" call-argvalue="400"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="4" file="main.c" line="41" col="18" call-argexpr="&amp;pid" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="6" file="main.c" line="41" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="7" file="main.c" line="41" col="18" call-argexpr="&amp;error" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:332:6" call-funcname="osStartProcess" call-argnr="2" file="main.c" line="42" col="17" call-argexpr="&amp;error" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="2" file="main.c" line="53" col="20" call-argexpr="proc2Stack" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="4" file="main.c" line="53" col="20" call-argexpr="&amp;pid2" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="6" file="main.c" line="53" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="7" file="main.c" line="53" col="20" call-argexpr="&amp;error" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:332:6" call-funcname="osStartProcess" call-argnr="2" file="main.c" line="54" col="19" call-argexpr="&amp;error" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="2" file="main.c" line="88" col="18" call-argexpr="proc1Stack" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="4" file="main.c" line="88" col="18" call-argexpr="&amp;pid1" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="6" file="main.c" line="88" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="pre_emptive_os/api/osapi.h:307:6" call-funcname="osCreateProcess" call-argnr="7" file="main.c" line="88" col="18" call-argexpr="&amp;error" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="pre_emptive_os/api/osapi.h:332:6" call-funcname="osStartProcess" call-argnr="2" file="main.c" line="89" col="17" call-argexpr="&amp;error" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+        <error id="misra-c2012-2.7" severity="style" msg="A function should not contain unused parameters\011" verbose="A function should not contain unused parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="49" column="13"/>
+        </error>
+        <error id="misra-c2012-2.7" severity="style" msg="A function should not contain unused parameters\011" verbose="A function should not contain unused parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="77" column="13"/>
+        </error>
+        <error id="misra-c2012-2.7" severity="style" msg="A function should not contain unused parameters\011" verbose="A function should not contain unused parameters\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="83" column="16"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="An object should be declared at block scope if its identifier only appears in a single function\011" verbose="An object should be declared at block scope if its identifier only appears in a single function\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="17" column="12"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="An object should be declared at block scope if its identifier only appears in a single function\011" verbose="An object should be declared at block scope if its identifier only appears in a single function\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="15" column="12"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="An object should be declared at block scope if its identifier only appears in a single function\011" verbose="An object should be declared at block scope if its identifier only appears in a single function\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="19" column="12"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="An object should be declared at block scope if its identifier only appears in a single function\011" verbose="An object should be declared at block scope if its identifier only appears in a single function\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="14" column="12"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="An object should be declared at block scope if its identifier only appears in a single function\011" verbose="An object should be declared at block scope if its identifier only appears in a single function\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="18" column="12"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="63" column="27"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" verbose="Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="70" column="27"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" verbose="The body of an iteration-statement or a selection-statement shall be a compound-statement\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="70" column="8"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;IOPIN&apos; is unknown" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="main.c" line="61" column="12"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="pre_emptive_os\api\general.h" line="58" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="pre_emptive_os\api\general.h" line="65" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" verbose="#define and #undef shall not be used on a reserved identifier or reserved macro name\011" file0="C:/Users/wssw/Downloads/2148/cppcheck-cppcheck-build-dir/main.a1.dump">
+            <location file="pre_emptive_os\api\osapi.h" line="57" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="31"/>
+    <functiondecl functionName="proc1" lineNumber="49"/>
+    <functiondecl functionName="proc2" lineNumber="77"/>
+    <functiondecl functionName="initProc" lineNumber="83"/>
+    <functioncall functionName="eaInit"/>
+    <functioncall functionName="initProc"/>
+    <functioncall functionName="osCreateProcess"/>
+    <functioncall functionName="osDeleteProcess"/>
+    <functioncall functionName="osInit"/>
+    <functioncall functionName="osSleep"/>
+    <functioncall functionName="osStart"/>
+    <functioncall functionName="osStartProcess"/>
+    <functioncall functionName="proc1"/>
+    <functioncall functionName="proc2"/>
+    <functioncall functionName="startMenu"/>
+    <functioncall functionName="startTimer1"/>
+  </FileInfo>
+</analyzerinfo>

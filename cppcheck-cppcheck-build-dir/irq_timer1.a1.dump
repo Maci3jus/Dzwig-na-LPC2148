@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+<dumps language="c">
+  <platform name="win64" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c"/>
+    <file index="1" name="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="#"/>
+    <tok fileIndex="0" linenr="1" column="2" str="include"/>
+    <tok fileIndex="0" linenr="1" column="10" str="&quot;../pre_emptive_os/api/general.h&quot;"/>
+    <tok fileIndex="0" linenr="2" column="1" str="#"/>
+    <tok fileIndex="0" linenr="2" column="2" str="include"/>
+    <tok fileIndex="0" linenr="2" column="10" str="&lt;lpc2xxx.h&gt;"/>
+    <tok fileIndex="0" linenr="4" column="1" str="#"/>
+    <tok fileIndex="0" linenr="4" column="2" str="define"/>
+    <tok fileIndex="0" linenr="4" column="10" str="SPI_CS"/>
+    <tok fileIndex="0" linenr="4" column="19" str="0x00008000"/>
+    <tok fileIndex="0" linenr="4" column="31" str="//&lt;= new board, old board = 0x00800000"/>
+    <tok fileIndex="0" linenr="6" column="1" str="void"/>
+    <tok fileIndex="0" linenr="6" column="6" str="send_SPI"/>
+    <tok fileIndex="0" linenr="6" column="14" str="("/>
+    <tok fileIndex="0" linenr="6" column="15" str="unsigned"/>
+    <tok fileIndex="0" linenr="6" column="24" str="char"/>
+    <tok fileIndex="0" linenr="6" column="29" str="indata"/>
+    <tok fileIndex="0" linenr="6" column="35" str=")"/>
+    <tok fileIndex="0" linenr="6" column="36" str=";"/>
+    <tok fileIndex="0" linenr="7" column="1" str="void"/>
+    <tok fileIndex="0" linenr="7" column="6" str="ledMatrix"/>
+    <tok fileIndex="0" linenr="7" column="15" str="("/>
+    <tok fileIndex="0" linenr="7" column="16" str="void"/>
+    <tok fileIndex="0" linenr="7" column="20" str=")"/>
+    <tok fileIndex="0" linenr="7" column="21" str=";"/>
+    <tok fileIndex="0" linenr="9" column="1" str="extern"/>
+    <tok fileIndex="0" linenr="9" column="8" str="tU8"/>
+    <tok fileIndex="0" linenr="9" column="12" str="pattern"/>
+    <tok fileIndex="0" linenr="9" column="19" str="["/>
+    <tok fileIndex="0" linenr="9" column="20" str="8"/>
+    <tok fileIndex="0" linenr="9" column="21" str="]"/>
+    <tok fileIndex="0" linenr="9" column="22" str=";"/>
+    <tok fileIndex="0" linenr="11" column="1" str="tU32"/>
+    <tok fileIndex="0" linenr="11" column="6" str="volatile"/>
+    <tok fileIndex="0" linenr="11" column="15" str="czasTimer"/>
+    <tok fileIndex="0" linenr="11" column="25" str="="/>
+    <tok fileIndex="0" linenr="11" column="27" str="0"/>
+    <tok fileIndex="0" linenr="11" column="28" str=";"/>
+    <tok fileIndex="0" linenr="13" column="1" str="void"/>
+    <tok fileIndex="0" linenr="13" column="6" str="send_SPI"/>
+    <tok fileIndex="0" linenr="13" column="14" str="("/>
+    <tok fileIndex="0" linenr="13" column="15" str="unsigned"/>
+    <tok fileIndex="0" linenr="13" column="24" str="char"/>
+    <tok fileIndex="0" linenr="13" column="29" str="indata"/>
+    <tok fileIndex="0" linenr="13" column="35" str=")"/>
+    <tok fileIndex="0" linenr="14" column="1" str="{"/>
+    <tok fileIndex="0" linenr="15" column="2" str="tU32"/>
+    <tok fileIndex="0" linenr="15" column="7" str="failsafe"/>
+    <tok fileIndex="0" linenr="15" column="15" str=";"/>
+    <tok fileIndex="0" linenr="17" column="3" str="IOCLR0"/>
+    <tok fileIndex="0" linenr="17" column="10" str="="/>
+    <tok fileIndex="0" linenr="17" column="12" str="SPI_CS"/>
+    <tok fileIndex="0" linenr="17" column="18" str=";"/>
+    <tok fileIndex="0" linenr="17" column="21" str="//Aktywacja SPI"/>
+    <tok fileIndex="0" linenr="19" column="3" str="SPI_SPDR"/>
+    <tok fileIndex="0" linenr="19" column="12" str="="/>
+    <tok fileIndex="0" linenr="19" column="14" str="indata"/>
+    <tok fileIndex="0" linenr="19" column="20" str=";"/>
+    <tok fileIndex="0" linenr="20" column="3" str="failsafe"/>
+    <tok fileIndex="0" linenr="20" column="12" str="="/>
+    <tok fileIndex="0" linenr="20" column="14" str="0"/>
+    <tok fileIndex="0" linenr="20" column="15" str=";"/>
+    <tok fileIndex="0" linenr="21" column="3" str="while"/>
+    <tok fileIndex="0" linenr="21" column="8" str="("/>
+    <tok fileIndex="0" linenr="21" column="9" str="("/>
+    <tok fileIndex="0" linenr="21" column="10" str="("/>
+    <tok fileIndex="0" linenr="21" column="11" str="SPI_SPSR"/>
+    <tok fileIndex="0" linenr="21" column="20" str="&amp;"/>
+    <tok fileIndex="0" linenr="21" column="22" str="0x80"/>
+    <tok fileIndex="0" linenr="21" column="26" str=")"/>
+    <tok fileIndex="0" linenr="21" column="28" str="=="/>
+    <tok fileIndex="0" linenr="21" column="31" str="0"/>
+    <tok fileIndex="0" linenr="21" column="32" str=")"/>
+    <tok fileIndex="0" linenr="21" column="34" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="21" column="37" str="("/>
+    <tok fileIndex="0" linenr="21" column="38" str="failsafe"/>
+    <tok fileIndex="0" linenr="21" column="47" str="&lt;"/>
+    <tok fileIndex="0" linenr="21" column="49" str="5000"/>
+    <tok fileIndex="0" linenr="21" column="53" str=")"/>
+    <tok fileIndex="0" linenr="21" column="54" str=")"/>
+    <tok fileIndex="0" linenr="21" column="55" str="{"/>
+    <tok fileIndex="0" linenr="22" column="5" str="failsafe"/>
+    <tok fileIndex="0" linenr="22" column="13" str="++"/>
+    <tok fileIndex="0" linenr="22" column="15" str=";"/>
+    <tok fileIndex="0" linenr="23" column="3" str="}"/>
+    <tok fileIndex="0" linenr="24" column="3" str="IOSET0"/>
+    <tok fileIndex="0" linenr="24" column="10" str="="/>
+    <tok fileIndex="0" linenr="24" column="12" str="SPI_CS"/>
+    <tok fileIndex="0" linenr="24" column="18" str=";"/>
+    <tok fileIndex="0" linenr="24" column="21" str="//Dezaktywacja SPI"/>
+    <tok fileIndex="0" linenr="26" column="3" str="if"/>
+    <tok fileIndex="0" linenr="26" column="6" str="("/>
+    <tok fileIndex="0" linenr="26" column="7" str="failsafe"/>
+    <tok fileIndex="0" linenr="26" column="16" str="&gt;="/>
+    <tok fileIndex="0" linenr="26" column="19" str="5000"/>
+    <tok fileIndex="0" linenr="26" column="23" str=")"/>
+    <tok fileIndex="0" linenr="27" column="3" str="{"/>
+    <tok fileIndex="0" linenr="28" column="5" str="SPI_SPCCR"/>
+    <tok fileIndex="0" linenr="28" column="15" str="="/>
+    <tok fileIndex="0" linenr="28" column="17" str="0x08"/>
+    <tok fileIndex="0" linenr="28" column="21" str=";"/>
+    <tok fileIndex="0" linenr="29" column="5" str="SPI_SPCR"/>
+    <tok fileIndex="0" linenr="29" column="15" str="="/>
+    <tok fileIndex="0" linenr="29" column="17" str="0x60"/>
+    <tok fileIndex="0" linenr="29" column="21" str=";"/>
+    <tok fileIndex="0" linenr="30" column="3" str="}"/>
+    <tok fileIndex="0" linenr="31" column="1" str="}"/>
+    <tok fileIndex="0" linenr="33" column="1" str="void"/>
+    <tok fileIndex="0" linenr="33" column="6" str="ledMatrix"/>
+    <tok fileIndex="0" linenr="33" column="15" str="("/>
+    <tok fileIndex="0" linenr="33" column="16" str="void"/>
+    <tok fileIndex="0" linenr="33" column="20" str=")"/>
+    <tok fileIndex="0" linenr="34" column="1" str="{"/>
+    <tok fileIndex="0" linenr="35" column="2" str="czasTimer"/>
+    <tok fileIndex="0" linenr="35" column="12" str="+="/>
+    <tok fileIndex="0" linenr="35" column="15" str="1"/>
+    <tok fileIndex="0" linenr="35" column="16" str=";"/>
+    <tok fileIndex="0" linenr="36" column="2" str="static"/>
+    <tok fileIndex="0" linenr="36" column="9" str="tU32"/>
+    <tok fileIndex="0" linenr="36" column="14" str="columnCounter"/>
+    <tok fileIndex="0" linenr="36" column="28" str="="/>
+    <tok fileIndex="0" linenr="36" column="30" str="0x01"/>
+    <tok fileIndex="0" linenr="36" column="34" str=";"/>
+    <tok fileIndex="0" linenr="37" column="3" str="static"/>
+    <tok fileIndex="0" linenr="37" column="10" str="tU8"/>
+    <tok fileIndex="0" linenr="37" column="14" str="index"/>
+    <tok fileIndex="0" linenr="37" column="20" str="="/>
+    <tok fileIndex="0" linenr="37" column="22" str="0"/>
+    <tok fileIndex="0" linenr="37" column="23" str=";"/>
+    <tok fileIndex="0" linenr="39" column="3" str="if"/>
+    <tok fileIndex="0" linenr="39" column="6" str="("/>
+    <tok fileIndex="0" linenr="39" column="7" str="columnCounter"/>
+    <tok fileIndex="0" linenr="39" column="21" str="&gt;"/>
+    <tok fileIndex="0" linenr="39" column="23" str="0x80"/>
+    <tok fileIndex="0" linenr="39" column="27" str=")"/>
+    <tok fileIndex="0" linenr="40" column="3" str="{"/>
+    <tok fileIndex="0" linenr="41" column="5" str="columnCounter"/>
+    <tok fileIndex="0" linenr="41" column="19" str="="/>
+    <tok fileIndex="0" linenr="41" column="21" str="0x01"/>
+    <tok fileIndex="0" linenr="41" column="25" str=";"/>
+    <tok fileIndex="0" linenr="42" column="5" str="index"/>
+    <tok fileIndex="0" linenr="42" column="11" str="="/>
+    <tok fileIndex="0" linenr="42" column="13" str="0"/>
+    <tok fileIndex="0" linenr="42" column="14" str=";"/>
+    <tok fileIndex="0" linenr="43" column="3" str="}"/>
+    <tok fileIndex="0" linenr="44" column="3" str="send_SPI"/>
+    <tok fileIndex="0" linenr="44" column="11" str="("/>
+    <tok fileIndex="0" linenr="44" column="12" str="~"/>
+    <tok fileIndex="0" linenr="44" column="13" str="pattern"/>
+    <tok fileIndex="0" linenr="44" column="20" str="["/>
+    <tok fileIndex="0" linenr="44" column="21" str="index"/>
+    <tok fileIndex="0" linenr="44" column="26" str="++"/>
+    <tok fileIndex="0" linenr="44" column="28" str="]"/>
+    <tok fileIndex="0" linenr="44" column="29" str=")"/>
+    <tok fileIndex="0" linenr="44" column="30" str=";"/>
+    <tok fileIndex="0" linenr="45" column="3" str="send_SPI"/>
+    <tok fileIndex="0" linenr="45" column="11" str="("/>
+    <tok fileIndex="0" linenr="45" column="12" str="~"/>
+    <tok fileIndex="0" linenr="45" column="13" str="columnCounter"/>
+    <tok fileIndex="0" linenr="45" column="26" str=")"/>
+    <tok fileIndex="0" linenr="45" column="27" str=";"/>
+    <tok fileIndex="0" linenr="46" column="3" str="columnCounter"/>
+    <tok fileIndex="0" linenr="46" column="17" str="&lt;&lt;="/>
+    <tok fileIndex="0" linenr="46" column="21" str="1"/>
+    <tok fileIndex="0" linenr="46" column="22" str=";"/>
+    <tok fileIndex="0" linenr="48" column="3" str="T1IR"/>
+    <tok fileIndex="0" linenr="48" column="15" str="="/>
+    <tok fileIndex="0" linenr="48" column="17" str="0xff"/>
+    <tok fileIndex="0" linenr="48" column="21" str=";"/>
+    <tok fileIndex="0" linenr="48" column="30" str="//reset all IRQ flags"/>
+    <tok fileIndex="0" linenr="49" column="3" str="VICVectAddr"/>
+    <tok fileIndex="0" linenr="49" column="15" str="="/>
+    <tok fileIndex="0" linenr="49" column="17" str="0x00"/>
+    <tok fileIndex="0" linenr="49" column="21" str=";"/>
+    <tok fileIndex="0" linenr="49" column="30" str="//dummy write to VIC to signal end of interrupt"/>
+    <tok fileIndex="0" linenr="50" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++23"/>
+  </standards>
+  <directivelist>
+    <directive file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="1" str="#include &quot;../pre_emptive_os/api/general.h&quot;"/>
+    <directive file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="2" str="#include &lt;lpc2xxx.h&gt;"/>
+    <directive file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="4" str="#define SPI_CS 0x00008000"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="57" str="#ifndef _GENERAL_H"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="58" str="#define _GENERAL_H"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="64" str="#ifndef NULL"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="65" str="#define NULL (0)"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="66" str="#endif"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="68" str="#define FALSE 0"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="69" str="#define TRUE 1"/>
+    <directive file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" linenr="79" str="#endif"/>
+  </directivelist>
+  <macro-usage>
+    <macro name="_GENERAL_H" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="58" column="9" usefile="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" useline="57" usecolumn="9" is-known-value="true"/>
+    <macro name="NULL" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="65" column="9" usefile="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" useline="64" usecolumn="9" is-known-value="true"/>
+    <macro name="SPI_CS" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" line="4" column="10" usefile="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" useline="17" usecolumn="12" is-known-value="true"/>
+    <macro name="SPI_CS" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" line="4" column="10" usefile="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" useline="24" usecolumn="12" is-known-value="true"/>
+  </macro-usage>
+  <tokenlist>
+    <token id="0000013EB92D22F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="6" column="1" str="void" scope="0000013EBF8840F0" type="name"/>
+    <token id="0000013EB92D2E30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="6" column="6" str="send_SPI" scope="0000013EBF8840F0" type="name" function="0000013EBDF46500"/>
+    <token id="0000013EB92D26B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="6" column="14" str="(" scope="0000013EBF8840F0" link="0000013EB92D1FF0" valueType-type="void" valueType-reference="None"/>
+    <token id="0000013EB92D18D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="6" column="24" str="char" scope="0000013EBF8840F0" type="name" isUnsigned="true"/>
+    <token id="0000013EB92D1AB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="6" column="29" str="indata" scope="0000013EBF8840F0" type="name" varId="1" exprId="1"/>
+    <token id="0000013EB92D1FF0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="6" column="35" str=")" scope="0000013EBF8840F0" link="0000013EB92D26B0"/>
+    <token id="0000013EB92D2050" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="6" column="36" str=";" scope="0000013EBF8840F0"/>
+    <token id="0000013EB92D2710" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="7" column="1" str="void" scope="0000013EBF8840F0" type="name"/>
+    <token id="0000013EB92D2770" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="7" column="6" str="ledMatrix" scope="0000013EBF8840F0" type="name" function="0000013EBDF460A0"/>
+    <token id="0000013EB92D27D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="7" column="15" str="(" scope="0000013EBF8840F0" isRemovedVoidParameter="true" link="0000013EB92D3490" valueType-type="void" valueType-reference="None"/>
+    <token id="0000013EB92D3490" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="7" column="20" str=")" scope="0000013EBF8840F0" link="0000013EB92D27D0"/>
+    <token id="0000013EB92D3670" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="7" column="21" str=";" scope="0000013EBF8840F0"/>
+    <token id="0000013EB92D3DF0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="9" column="1" str="extern" scope="0000013EBF8840F0" type="name"/>
+    <token id="0000013EB92D3D30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="9" column="0" str="char" scope="0000013EBF8840F0" type="name" isUnsigned="true"/>
+    <token id="0000013EB92D3910" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="9" column="12" str="pattern" scope="0000013EBF8840F0" type="name" varId="2" exprId="2" variable="0000013EBDFBDA10" astParent="0000013EB92D32B0" valueType-type="char" valueType-sign="unsigned" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000013EB92D32B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="9" column="19" str="[" scope="0000013EBF8840F0" link="0000013EB92D37F0" astOperand1="0000013EB92D3910" astOperand2="0000013EB92D3310" valueType-type="char" valueType-sign="unsigned" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000013EB92D3310" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="9" column="20" str="8" scope="0000013EBF8840F0" type="number" isInt="true" values="0000013EBC1FF570" astParent="0000013EB92D32B0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92D37F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="9" column="21" str="]" scope="0000013EBF8840F0" link="0000013EB92D32B0"/>
+    <token id="0000013EB92D3C10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="9" column="22" str=";" scope="0000013EBF8840F0"/>
+    <token id="0000013EB92D35B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="0" str="int" scope="0000013EBF8840F0" type="name" isUnsigned="true"/>
+    <token id="0000013EB92D3970" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="6" str="volatile" scope="0000013EBF8840F0" type="name"/>
+    <token id="0000013EB92D30D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="15" str="czasTimer" scope="0000013EBF8840F0" type="name" varId="3" exprId="3" variable="0000013EBDFBE3B0"/>
+    <token id="0000013EB92D34F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="25" str=";" scope="0000013EBF8840F0" isSplittedVarDeclEq="true"/>
+    <token id="0000013EB92C6E30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="15" str="czasTimer" scope="0000013EBF8840F0" type="name" varId="3" exprId="3" variable="0000013EBDFBE3B0" astParent="0000013EB92C6410"/>
+    <token id="0000013EB92C6410" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="25" str="=" scope="0000013EBF8840F0" type="op" isAssignmentOp="true" values="0000013EBC1FF110" astOperand1="0000013EB92C6E30" astOperand2="0000013EB92D33D0"/>
+    <token id="0000013EB92D33D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="27" str="0" scope="0000013EBF8840F0" type="number" isInt="true" values="0000013EBC1FF1B0" astParent="0000013EB92C6410" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92D3EB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="11" column="28" str=";" scope="0000013EBF8840F0"/>
+    <token id="0000013EB92D3550" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="13" column="1" str="void" scope="0000013EBF8840F0" type="name"/>
+    <token id="0000013EB92D3610" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="13" column="6" str="send_SPI" scope="0000013EBF8840F0" type="name" function="0000013EBDF46500"/>
+    <token id="0000013EB92D3A30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="13" column="14" str="(" scope="0000013EBF8840F0" link="0000013EB92D3190" valueType-type="void" valueType-reference="None"/>
+    <token id="0000013EB92D3850" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="13" column="24" str="char" scope="0000013EBF8840F0" type="name" isUnsigned="true"/>
+    <token id="0000013EB92D3A90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="13" column="29" str="indata" scope="0000013EBF8840F0" type="name" varId="4" exprId="4" variable="0000013EB92C5630" values="0000013EBC1FFAB0" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92D3190" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="13" column="35" str=")" scope="0000013EBF8840F0" link="0000013EB92D3A30"/>
+    <token id="0000013EB92D3E50" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="14" column="1" str="{" scope="0000013EBF8844B0" link="0000013EB92C55D0"/>
+    <token id="0000013EB92D38B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="15" column="0" str="int" scope="0000013EBF8844B0" type="name" isUnsigned="true"/>
+    <token id="0000013EB92D3C70" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="15" column="7" str="failsafe" scope="0000013EBF8844B0" type="name" varId="5" exprId="5" variable="0000013EBDFBD1C0" values="0000013EBC1FFC70" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92D3130" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="15" column="15" str=";" scope="0000013EBF8844B0"/>
+    <token id="0000013EB92D3F70" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="17" column="3" str="IOCLR0" scope="0000013EBF8844B0" type="name" exprId="8" astParent="0000013EB92D3AF0"/>
+    <token id="0000013EB92D3AF0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="17" column="10" str="=" scope="0000013EBF8844B0" type="op" isAssignmentOp="true" exprId="14" values="0000013EBC1FFA10" astOperand1="0000013EB92D3F70" astOperand2="0000013EB92D3CD0"/>
+    <token id="0000013EB92D3CD0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="17" column="12" str="0x00008000" scope="0000013EBF8844B0" type="number" isInt="true" isExpandedMacro="true" values="0000013EBC1FF2D0" astParent="0000013EB92D3AF0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92D3D90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="17" column="18" str=";" scope="0000013EBF8844B0"/>
+    <token id="0000013EB92D3F10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="19" column="3" str="SPI_SPDR" scope="0000013EBF8844B0" type="name" exprId="9" astParent="0000013EB92D3B50"/>
+    <token id="0000013EB92D3B50" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="19" column="12" str="=" scope="0000013EBF8844B0" type="op" isAssignmentOp="true" exprId="15" values="0000013EBC1FFAD0" astOperand1="0000013EB92D3F10" astOperand2="0000013EB92D31F0"/>
+    <token id="0000013EB92D31F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="19" column="14" str="indata" scope="0000013EBF8844B0" type="name" varId="4" exprId="4" variable="0000013EB92C5630" values="0000013EBC1FFA30" astParent="0000013EB92D3B50" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92D3730" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="19" column="20" str=";" scope="0000013EBF8844B0"/>
+    <token id="0000013EB92D39D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="20" column="3" str="failsafe" scope="0000013EBF8844B0" type="name" varId="5" exprId="5" variable="0000013EBDFBD1C0" values="0000013EBC1FFC90" astParent="0000013EB92D3FD0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92D3FD0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="20" column="12" str="=" scope="0000013EBF8844B0" type="op" isAssignmentOp="true" exprId="16" values="0000013EBC1FFBF0" astOperand1="0000013EB92D39D0" astOperand2="0000013EB92D3BB0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92D3BB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="20" column="14" str="0" scope="0000013EBF8844B0" type="number" isInt="true" values="0000013EBC1FFB50" astParent="0000013EB92D3FD0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92D36D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="20" column="15" str=";" scope="0000013EBF8844B0"/>
+    <token id="0000013EB92D3250" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="3" str="while" scope="0000013EBF8844B0" type="name" astParent="0000013EB92D3430"/>
+    <token id="0000013EB92D3430" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="8" str="(" scope="0000013EBF8844B0" link="0000013EB92C4FD0" exprId="17" astOperand1="0000013EB92D3250" astOperand2="0000013EB92C4490"/>
+    <token id="0000013EB92D3790" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="9" str="(" scope="0000013EBF8844B0" link="0000013EB92C5330" exprId="18"/>
+    <token id="0000013EB92C4610" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="10" str="(" scope="0000013EBF8844B0" link="0000013EB92C4BB0" exprId="19"/>
+    <token id="0000013EB92C52D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="11" str="SPI_SPSR" scope="0000013EBF8844B0" type="name" exprId="10" astParent="0000013EB92C4AF0"/>
+    <token id="0000013EB92C4AF0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="20" str="&amp;" scope="0000013EBF8844B0" type="op" exprId="20" values="0000013EBC1FF9D0" astParent="0000013EB92C51B0" astOperand1="0000013EB92C52D0" astOperand2="0000013EB92C4A90"/>
+    <token id="0000013EB92C4A90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="22" str="0x80" scope="0000013EBF8844B0" type="number" isInt="true" values="0000013EBC1FFBD0" astParent="0000013EB92C4AF0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C4BB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="26" str=")" scope="0000013EBF8844B0" link="0000013EB92C4610"/>
+    <token id="0000013EB92C51B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="28" str="==" scope="0000013EBF8844B0" type="op" isComparisonOp="true" exprId="21" values="0000013EBC1FF870" astParent="0000013EB92C4490" astOperand1="0000013EB92C4AF0" astOperand2="0000013EB92C4430" valueType-type="bool" valueType-reference="None"/>
+    <token id="0000013EB92C4430" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="31" str="0" scope="0000013EBF8844B0" type="number" isInt="true" values="0000013EBC1FF690" astParent="0000013EB92C51B0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C5330" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="32" str=")" scope="0000013EBF8844B0" link="0000013EB92D3790"/>
+    <token id="0000013EB92C4490" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="34" str="&amp;&amp;" scope="0000013EBF8844B0" type="op" isLogicalOp="true" exprId="22" values="0000013EBC1FF670" astParent="0000013EB92D3430" astOperand1="0000013EB92C51B0" astOperand2="0000013EB92C48B0" valueType-type="bool" valueType-reference="None"/>
+    <token id="0000013EB92C5510" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="37" str="(" scope="0000013EBF8844B0" link="0000013EB92C54B0" exprId="23"/>
+    <token id="0000013EB92C47F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="38" str="failsafe" scope="0000013EBF8844B0" type="name" varId="5" exprId="5" variable="0000013EBDFBD1C0" values="0000013EBC1FF950" astParent="0000013EB92C48B0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C48B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="47" str="&lt;" scope="0000013EBF8844B0" type="op" isComparisonOp="true" exprId="24" values="0000013EBC1FFC30" astParent="0000013EB92C4490" astOperand1="0000013EB92C47F0" astOperand2="0000013EB92C49D0" valueType-type="bool" valueType-reference="None"/>
+    <token id="0000013EB92C49D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="49" str="5000" scope="0000013EBF8844B0" type="number" isInt="true" values="0000013EBC1FFA70" astParent="0000013EB92C48B0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C54B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="53" str=")" scope="0000013EBF8844B0" link="0000013EB92C5510"/>
+    <token id="0000013EB92C4FD0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="54" str=")" scope="0000013EBF8844B0" link="0000013EB92D3430"/>
+    <token id="0000013EB92C4670" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="21" column="55" str="{" scope="0000013EBF8835B0" link="0000013EB92C46D0"/>
+    <token id="0000013EB92C4E50" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="22" column="5" str="failsafe" scope="0000013EBF8835B0" type="name" varId="5" exprId="5" variable="0000013EBDFBD1C0" values="0000013EBC1FF8B0" astParent="0000013EB92C5390" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C5390" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="22" column="13" str="++" scope="0000013EBF8835B0" type="op" exprId="25" values="0000013EBC1FFD50" astOperand1="0000013EB92C4E50" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C4790" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="22" column="15" str=";" scope="0000013EBF8835B0"/>
+    <token id="0000013EB92C46D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="23" column="3" str="}" scope="0000013EBF8835B0" link="0000013EB92C4670"/>
+    <token id="0000013EB92C53F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="24" column="3" str="IOSET0" scope="0000013EBF8844B0" type="name" exprId="11" astParent="0000013EB92C4B50"/>
+    <token id="0000013EB92C4B50" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="24" column="10" str="=" scope="0000013EBF8844B0" type="op" isAssignmentOp="true" exprId="26" values="0000013EBC1FF8D0" astOperand1="0000013EB92C53F0" astOperand2="0000013EB92C4C10"/>
+    <token id="0000013EB92C4C10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="24" column="12" str="0x00008000" scope="0000013EBF8844B0" type="number" isInt="true" isExpandedMacro="true" values="0000013EBC1FF6F0" astParent="0000013EB92C4B50" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C4C70" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="24" column="18" str=";" scope="0000013EBF8844B0"/>
+    <token id="0000013EB92C5210" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="26" column="3" str="if" scope="0000013EBF8844B0" type="name" astParent="0000013EB92C44F0"/>
+    <token id="0000013EB92C44F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="26" column="6" str="(" scope="0000013EBF8844B0" link="0000013EB92C4850" exprId="27" astOperand1="0000013EB92C5210" astOperand2="0000013EB92C4550"/>
+    <token id="0000013EB92C5450" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="26" column="7" str="failsafe" scope="0000013EBF8844B0" type="name" varId="5" exprId="5" variable="0000013EBDFBD1C0" values="0000013EBC1FFD90" astParent="0000013EB92C4550" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C4550" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="26" column="16" str="&gt;=" scope="0000013EBF8844B0" type="op" isComparisonOp="true" exprId="28" values="0000013EBC1FFD70" astParent="0000013EB92C44F0" astOperand1="0000013EB92C5450" astOperand2="0000013EB92C5570" valueType-type="bool" valueType-reference="None"/>
+    <token id="0000013EB92C5570" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="26" column="19" str="5000" scope="0000013EBF8844B0" type="number" isInt="true" values="0000013EBC1FF810" astParent="0000013EB92C4550" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C4850" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="26" column="23" str=")" scope="0000013EBF8844B0" link="0000013EB92C44F0"/>
+    <token id="0000013EB92C4910" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="27" column="3" str="{" scope="0000013EBF883BF0" link="0000013EB92C5270"/>
+    <token id="0000013EB92C4970" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="28" column="5" str="SPI_SPCCR" scope="0000013EBF883BF0" type="name" exprId="12" astParent="0000013EB92C5090"/>
+    <token id="0000013EB92C5090" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="28" column="15" str="=" scope="0000013EBF883BF0" type="op" isAssignmentOp="true" exprId="29" values="0000013EBC1FFD30" astOperand1="0000013EB92C4970" astOperand2="0000013EB92C4730"/>
+    <token id="0000013EB92C4730" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="28" column="17" str="0x08" scope="0000013EBF883BF0" type="number" isInt="true" values="0000013EBC1FFA50" astParent="0000013EB92C5090" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C5750" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="28" column="21" str=";" scope="0000013EBF883BF0"/>
+    <token id="0000013EB92C4F70" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="29" column="5" str="SPI_SPCR" scope="0000013EBF883BF0" type="name" exprId="13" astParent="0000013EB92C45B0"/>
+    <token id="0000013EB92C45B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="29" column="15" str="=" scope="0000013EBF883BF0" type="op" isAssignmentOp="true" exprId="30" values="0000013EBC1FF6D0" astOperand1="0000013EB92C4F70" astOperand2="0000013EB92C5030"/>
+    <token id="0000013EB92C5030" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="29" column="17" str="0x60" scope="0000013EBF883BF0" type="number" isInt="true" values="0000013EBC1FF970" astParent="0000013EB92C45B0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C4A30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="29" column="21" str=";" scope="0000013EBF883BF0"/>
+    <token id="0000013EB92C5270" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="30" column="3" str="}" scope="0000013EBF883BF0" link="0000013EB92C4910"/>
+    <token id="0000013EB92C55D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="31" column="1" str="}" scope="0000013EBF8844B0" link="0000013EB92D3E50"/>
+    <token id="0000013EB92C4CD0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="33" column="1" str="void" scope="0000013EBF8840F0" type="name"/>
+    <token id="0000013EB92C4D30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="33" column="6" str="ledMatrix" scope="0000013EBF8840F0" type="name" function="0000013EBDF460A0"/>
+    <token id="0000013EB92C4D90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="33" column="15" str="(" scope="0000013EBF8840F0" isRemovedVoidParameter="true" link="0000013EB92C4DF0" valueType-type="void" valueType-reference="None"/>
+    <token id="0000013EB92C4DF0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="33" column="20" str=")" scope="0000013EBF8840F0" link="0000013EB92C4D90"/>
+    <token id="0000013EB92C4EB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="34" column="1" str="{" scope="0000013EBF8845F0" link="0000013EB92C62F0"/>
+    <token id="0000013EB92C4F10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="35" column="2" str="czasTimer" scope="0000013EBF8845F0" type="name" varId="3" exprId="3" variable="0000013EBDFBE3B0" astParent="0000013EB92C50F0"/>
+    <token id="0000013EB92C50F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="35" column="12" str="+=" scope="0000013EBF8845F0" type="op" isAssignmentOp="true" exprId="33" astOperand1="0000013EB92C4F10" astOperand2="0000013EB92C5810"/>
+    <token id="0000013EB92C5810" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="35" column="15" str="1" scope="0000013EBF8845F0" type="number" isInt="true" values="0000013EBC1FF850" astParent="0000013EB92C50F0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C5690" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="35" column="16" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C4130" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="36" column="2" str="static" scope="0000013EBF8845F0" type="name"/>
+    <token id="0000013EB92C56F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="36" column="0" str="int" scope="0000013EBF8845F0" type="name" isUnsigned="true"/>
+    <token id="0000013EB92C5150" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="36" column="14" str="columnCounter" scope="0000013EBF8845F0" type="name" varId="6" exprId="6" variable="0000013EBDFBCAC0" values="0000013EBC1FF7B0" astParent="0000013EB92C57B0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C57B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="36" column="28" str="=" scope="0000013EBF8845F0" type="op" isAssignmentOp="true" exprId="34" values="0000013EBC1FF770" astOperand1="0000013EB92C5150" astOperand2="0000013EB92C5870" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C5870" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="36" column="30" str="0x01" scope="0000013EBF8845F0" type="number" isInt="true" values="0000013EBC1FFB70" astParent="0000013EB92C57B0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C40D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="36" column="34" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C4190" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="37" column="3" str="static" scope="0000013EBF8845F0" type="name"/>
+    <token id="0000013EB92C41F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="37" column="0" str="char" scope="0000013EBF8845F0" type="name" isUnsigned="true"/>
+    <token id="0000013EB92C4250" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="37" column="14" str="index" scope="0000013EBF8845F0" type="name" varId="7" exprId="7" variable="0000013EBDFBCCF0" values="0000013EBC1FFCD0" astParent="0000013EB92C42B0" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C42B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="37" column="20" str="=" scope="0000013EBF8845F0" type="op" isAssignmentOp="true" exprId="35" values="0000013EBC1FFB90" astOperand1="0000013EB92C4250" astOperand2="0000013EB92C4310" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C4310" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="37" column="22" str="0" scope="0000013EBF8845F0" type="number" isInt="true" values="0000013EBC1FF890" astParent="0000013EB92C42B0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C4370" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="37" column="23" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C43D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="39" column="3" str="if" scope="0000013EBF8845F0" type="name" astParent="0000013EB92C6AD0"/>
+    <token id="0000013EB92C6AD0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="39" column="6" str="(" scope="0000013EBF8845F0" link="0000013EB92C5F30" exprId="36" astOperand1="0000013EB92C43D0" astOperand2="0000013EB92C5E10"/>
+    <token id="0000013EB92C6530" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="39" column="7" str="columnCounter" scope="0000013EBF8845F0" type="name" varId="6" exprId="6" variable="0000013EBDFBCAC0" values="0000013EBC1FF930" astParent="0000013EB92C5E10" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C5E10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="39" column="21" str="&gt;" scope="0000013EBF8845F0" type="op" isComparisonOp="true" exprId="37" values="0000013EBC1FFAF0" astParent="0000013EB92C6AD0" astOperand1="0000013EB92C6530" astOperand2="0000013EB92C6350" valueType-type="bool" valueType-reference="None"/>
+    <token id="0000013EB92C6350" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="39" column="23" str="0x80" scope="0000013EBF8845F0" type="number" isInt="true" values="0000013EBC1FF8F0" astParent="0000013EB92C5E10" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C5F30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="39" column="27" str=")" scope="0000013EBF8845F0" link="0000013EB92C6AD0"/>
+    <token id="0000013EB92C6E90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="40" column="3" str="{" scope="0000013EBF883D30" link="0000013EB92C6B90"/>
+    <token id="0000013EB92C6230" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="41" column="5" str="columnCounter" scope="0000013EBF883D30" type="name" varId="6" exprId="6" variable="0000013EBDFBCAC0" values="0000013EBC1FFB10" astParent="0000013EB92C5BD0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C5BD0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="41" column="19" str="=" scope="0000013EBF883D30" type="op" isAssignmentOp="true" exprId="38" values="0000013EBC1FFC50" astOperand1="0000013EB92C6230" astOperand2="0000013EB92C6290" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C6290" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="41" column="21" str="0x01" scope="0000013EBF883D30" type="number" isInt="true" values="0000013EBC1FFD10" astParent="0000013EB92C5BD0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C63B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="41" column="25" str=";" scope="0000013EBF883D30"/>
+    <token id="0000013EB92C5CF0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="42" column="5" str="index" scope="0000013EBF883D30" type="name" varId="7" exprId="7" variable="0000013EBDFBCCF0" values="0000013EBC1FFBB0" astParent="0000013EB92C6FB0" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C6FB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="42" column="11" str="=" scope="0000013EBF883D30" type="op" isAssignmentOp="true" exprId="39" values="0000013EBC1FF990" astOperand1="0000013EB92C5CF0" astOperand2="0000013EB92C6590" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C6590" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="42" column="13" str="0" scope="0000013EBF883D30" type="number" isInt="true" values="0000013EBC1FF750" astParent="0000013EB92C6FB0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C6110" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="42" column="14" str=";" scope="0000013EBF883D30"/>
+    <token id="0000013EB92C6B90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="43" column="3" str="}" scope="0000013EBF883D30" link="0000013EB92C6E90"/>
+    <token id="0000013EB92C6D70" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="3" str="send_SPI" scope="0000013EBF8845F0" type="name" function="0000013EBDF46500" astParent="0000013EB92C5C30"/>
+    <token id="0000013EB92C5C30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="11" str="(" scope="0000013EBF8845F0" link="0000013EB92C7070" exprId="40" astOperand1="0000013EB92C6D70" astOperand2="0000013EB92C5B10" valueType-type="void" valueType-reference="None"/>
+    <token id="0000013EB92C5B10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="12" str="~" scope="0000013EBF8845F0" type="op" exprId="41" values="0000013EBC1FFCF0" astParent="0000013EB92C5C30" astOperand1="0000013EB92C6890" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C5A50" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="13" str="pattern" scope="0000013EBF8845F0" type="name" varId="2" exprId="2" variable="0000013EBDFBDA10" astParent="0000013EB92C6890" valueType-type="char" valueType-sign="unsigned" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000013EB92C6890" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="20" str="[" scope="0000013EBF8845F0" link="0000013EB92C68F0" exprId="42" values="0000013EBC1FFC10" astParent="0000013EB92C5B10" astOperand1="0000013EB92C5A50" astOperand2="0000013EB92C6CB0" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C6B30" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="21" str="index" scope="0000013EBF8845F0" type="name" varId="7" exprId="7" variable="0000013EBDFBCCF0" values="0000013EBC1FF7D0" astParent="0000013EB92C6CB0" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C6CB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="26" str="++" scope="0000013EBF8845F0" type="op" exprId="43" values="0000013EBC1FF7F0" astParent="0000013EB92C6890" astOperand1="0000013EB92C6B30" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C68F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="28" str="]" scope="0000013EBF8845F0" link="0000013EB92C6890"/>
+    <token id="0000013EB92C7070" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="29" str=")" scope="0000013EBF8845F0" link="0000013EB92C5C30"/>
+    <token id="0000013EB92C6C50" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="44" column="30" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C6950" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="45" column="3" str="send_SPI" scope="0000013EBF8845F0" type="name" function="0000013EBDF46500" astParent="0000013EB92C5DB0"/>
+    <token id="0000013EB92C5DB0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="45" column="11" str="(" scope="0000013EBF8845F0" link="0000013EB92C6170" exprId="44" astOperand1="0000013EB92C6950" astOperand2="0000013EB92C69B0" valueType-type="void" valueType-reference="None"/>
+    <token id="0000013EB92C69B0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="45" column="12" str="~" scope="0000013EBF8845F0" type="op" exprId="45" values="0000013EBC1FBFD0" astParent="0000013EB92C5DB0" astOperand1="0000013EB92C65F0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C65F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="45" column="13" str="columnCounter" scope="0000013EBF8845F0" type="name" varId="6" exprId="6" variable="0000013EBDFBCAC0" values="0000013EBC1FC2B0" astParent="0000013EB92C69B0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C6170" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="45" column="26" str=")" scope="0000013EBF8845F0" link="0000013EB92C5DB0"/>
+    <token id="0000013EB92C5930" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="45" column="27" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C6A70" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="46" column="3" str="columnCounter" scope="0000013EBF8845F0" type="name" varId="6" exprId="6" variable="0000013EBDFBCAC0" values="0000013EBC1FC110" astParent="0000013EB92C61D0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C61D0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="46" column="17" str="&lt;&lt;=" scope="0000013EBF8845F0" type="op" isAssignmentOp="true" exprId="46" values="0000013EBC1FC330" astOperand1="0000013EB92C6A70" astOperand2="0000013EB92C6A10" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0000013EB92C6A10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="46" column="21" str="1" scope="0000013EBF8845F0" type="number" isInt="true" values="0000013EBC1FF710" astParent="0000013EB92C61D0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C6BF0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="46" column="22" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C59F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="48" column="3" str="T1IR" scope="0000013EBF8845F0" type="name" exprId="31" astParent="0000013EB92C6F50"/>
+    <token id="0000013EB92C6F50" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="48" column="15" str="=" scope="0000013EBF8845F0" type="op" isAssignmentOp="true" exprId="47" values="0000013EBC1FF910" astOperand1="0000013EB92C59F0" astOperand2="0000013EB92C5C90"/>
+    <token id="0000013EB92C5C90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="48" column="17" str="0xff" scope="0000013EBF8845F0" type="number" isInt="true" values="0000013EBC1FF790" astParent="0000013EB92C6F50" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C6650" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="48" column="21" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C5ED0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="49" column="3" str="VICVectAddr" scope="0000013EBF8845F0" type="name" exprId="32" astParent="0000013EB92C6D10"/>
+    <token id="0000013EB92C6D10" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="49" column="15" str="=" scope="0000013EBF8845F0" type="op" isAssignmentOp="true" exprId="48" values="0000013EBC1FF730" astOperand1="0000013EB92C5ED0" astOperand2="0000013EB92C6DD0"/>
+    <token id="0000013EB92C6DD0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="49" column="17" str="0x00" scope="0000013EBF8845F0" type="number" isInt="true" values="0000013EBC1FFA90" astParent="0000013EB92C6D10" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000013EB92C5F90" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="49" column="21" str=";" scope="0000013EBF8845F0"/>
+    <token id="0000013EB92C62F0" file="C:/Users/wssw/Downloads/2148/irq/irq_timer1.c" linenr="50" column="1" str="}" scope="0000013EBF8845F0" link="0000013EB92C4EB0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0000013EBF8840F0" type="Global">
+      <functionList>
+        <function id="0000013EBDF46500" token="0000013EB92D3610" tokenDef="0000013EB92D2E30" name="send_SPI" type="Function" access="Public">
+          <arg nr="1" variable="0000013EB92C5630"/>
+        </function>
+        <function id="0000013EBDF460A0" token="0000013EB92C4D30" tokenDef="0000013EB92D2770" name="ledMatrix" type="Function" access="Public"/>
+      </functionList>
+      <varlist>
+        <var id="0000013EBDFBDA10"/>
+        <var id="0000013EBDFBE3B0"/>
+      </varlist>
+    </scope>
+    <scope id="0000013EBF8844B0" type="Function" className="send_SPI" bodyStart="0000013EB92D3E50" bodyEnd="0000013EB92C55D0" nestedIn="0000013EBF8840F0" function="0000013EBDF46500">
+      <varlist>
+        <var id="0000013EBDFBD1C0"/>
+      </varlist>
+    </scope>
+    <scope id="0000013EBF8835B0" type="While" bodyStart="0000013EB92C4670" bodyEnd="0000013EB92C46D0" nestedIn="0000013EBF8844B0"/>
+    <scope id="0000013EBF883BF0" type="If" bodyStart="0000013EB92C4910" bodyEnd="0000013EB92C5270" nestedIn="0000013EBF8844B0"/>
+    <scope id="0000013EBF8845F0" type="Function" className="ledMatrix" bodyStart="0000013EB92C4EB0" bodyEnd="0000013EB92C62F0" nestedIn="0000013EBF8840F0" function="0000013EBDF460A0">
+      <varlist>
+        <var id="0000013EBDFBCAC0"/>
+        <var id="0000013EBDFBCCF0"/>
+      </varlist>
+    </scope>
+    <scope id="0000013EBF883D30" type="If" bodyStart="0000013EB92C6E90" bodyEnd="0000013EB92C6B90" nestedIn="0000013EBF8845F0"/>
+  </scopes>
+  <variables>
+    <var id="0000013EB92C5630" nameToken="0000013EB92D3A90" typeStartToken="0000013EB92D3850" typeEndToken="0000013EB92D3850" access="Argument" scope="0000013EBF8844B0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0000013EBDFBCAC0" nameToken="0000013EB92C5150" typeStartToken="0000013EB92C56F0" typeEndToken="0000013EB92C56F0" access="Local" scope="0000013EBF8845F0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="true" isVolatile="false"/>
+    <var id="0000013EBDFBCCF0" nameToken="0000013EB92C4250" typeStartToken="0000013EB92C41F0" typeEndToken="0000013EB92C41F0" access="Local" scope="0000013EBF8845F0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="true" isVolatile="false"/>
+    <var id="0000013EBDFBD1C0" nameToken="0000013EB92D3C70" typeStartToken="0000013EB92D38B0" typeEndToken="0000013EB92D38B0" access="Local" scope="0000013EBF8844B0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0000013EBDFBDA10" nameToken="0000013EB92D3910" typeStartToken="0000013EB92D3D30" typeEndToken="0000013EB92D3D30" access="Global" scope="0000013EBF8840F0" constness="0" isArray="true" isClass="false" isConst="false" isExtern="true" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0000013EBDFBE3B0" nameToken="0000013EB92D30D0" typeStartToken="0000013EB92D35B0" typeEndToken="0000013EB92D35B0" access="Global" scope="0000013EBF8840F0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="true"/>
+  </variables>
+  <valueflow>
+    <values id="0000013EBC1FF570">
+      <value intvalue="8" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF110">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF1B0">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFAB0">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFC70">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFA10">
+      <value intvalue="32768" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF2D0">
+      <value intvalue="32768" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFAD0">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFA30">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFC90">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFBF0">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFB50">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF9D0">
+      <value intvalue="0" bound="Point" possible="true" path="0"/>
+      <value intvalue="128" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFBD0">
+      <value intvalue="128" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF870">
+      <value intvalue="1" bound="Point" possible="true" path="0"/>
+      <value intvalue="0" bound="Point" possible="true" path="0"/>
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF690">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF670">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+      <value intvalue="1" bound="Point" possible="true" path="0"/>
+      <value intvalue="0" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF950">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="0" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFC30">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+      <value intvalue="1" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFA70">
+      <value intvalue="5000" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF8B0">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="4999" bound="Upper" condition-line="21" possible="true" path="0"/>
+      <value intvalue="5000" bound="Lower" condition-line="21" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFD50">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="4999" bound="Upper" condition-line="21" possible="true" path="0"/>
+      <value intvalue="5000" bound="Lower" condition-line="21" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF8D0">
+      <value intvalue="32768" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF6F0">
+      <value intvalue="32768" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFD90">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="5000" bound="Lower" condition-line="21" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFD70">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+      <value intvalue="1" bound="Lower" condition-line="21" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF810">
+      <value intvalue="5000" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFD30">
+      <value intvalue="8" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFA50">
+      <value intvalue="8" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF6D0">
+      <value intvalue="96" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF970">
+      <value intvalue="96" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF850">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF7B0">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF770">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFB70">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFCD0">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFB90">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF890">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF930">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="1" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFAF0">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+      <value intvalue="0" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF8F0">
+      <value intvalue="128" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFB10">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFC50">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFD10">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFBB0">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF990">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF750">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFCF0">
+      <value intvalue="0" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFC10">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF7D0">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="0" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF7F0">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="0" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FBFD0">
+      <value intvalue="0" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FC2B0">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FC110">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FC330">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF710">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF910">
+      <value intvalue="255" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF790">
+      <value intvalue="255" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FF730">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0000013EBC1FFA90">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+  <typedef-info>
+    <info name="tU8" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="71" column="23" used="1"/>
+    <info name="tU16" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="72" column="24" used="0"/>
+    <info name="tU32" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="73" column="22" used="1"/>
+    <info name="tS8" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="74" column="21" used="0"/>
+    <info name="tS16" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="75" column="22" used="0"/>
+    <info name="tS32" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="76" column="20" used="0"/>
+    <info name="tBool" file="C:/Users/wssw/Downloads/2148/pre_emptive_os/api/general.h" line="77" column="23" used="0"/>
+  </typedef-info>
+</dump>
+</dumps>
